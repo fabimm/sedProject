@@ -1,3 +1,32 @@
+<?php
+   include("config.php");
+   session_start();
+   
+   if($_SERVER["REQUEST_METHOD"] == "POST") {
+      // username and password sent from form 
+      
+      $myusername = mysqli_real_escape_string($db,$_POST['username']);
+      $mypassword = mysqli_real_escape_string($db,$_POST['password']); 
+      
+      $sql = "SELECT id FROM admin WHERE username = '$myusername' and contrasenia_us = '$mypassword'";
+      $result = mysqli_query($db,$sql);
+      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+      $active = $row['active'];
+      
+      $count = mysqli_num_rows($result);
+      
+      // If result matched $myusername and $mypassword, table row must be 1 row
+		
+      if($count == 1) {
+         session_register("myusername");
+         $_SESSION['login_user'] = $myusername;
+         
+         header("location: index.php");
+      }else {
+         $error = "Your Login Name or Password is invalid";
+      }
+   }
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -135,33 +164,36 @@
 <tittle>
 <body background="images/login-background.jpg">
 
-<p class="heading-4"><center><br><br><br><br><br><br><p class="heading-4">Haz clic aquí para iniciar sesión</p></br></center></p>
+<p class="heading-4"><center><br><br><br><br><br><br><p class="heading-4">Haz clic aquí para Registrarse</p></br></center></p>
 
-<center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Iniciar Sesión</button></center>
+<center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Registrarse</button></center>
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="" method="post">
     
 
     <div class="container">
+      
+      <label for="username"><b>Usuario</b></label>
+      <input type="text" placeholder="Ingrese su nombre" name="username" required>
       <label for="uname"><b>Nombre</b></label>
       <input type="text" placeholder="Ingrese su nombre" name="unombre" required>
 
       <label for="psw"><b>Apellido</b></label>
-      <input type="password" placeholder="Ingrese su apellido" name="uapellido" required>
+      <input type="text" placeholder="Ingrese su apellido" name="uapellido" required>
 
       <label for="psw"><b>Contraseña</b></label>
-      <input type="password" placeholder="Ingrese su contraseña" name="ucontra" required>
+      <input type="password" placeholder="Ingrese su contraseña" name="password" required>
         
-      <button type="submit">Iniciar Sesión</button>
+      <button type="submit">Registrarse</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Recuérdame
       </label>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+      <!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button> -->
       <!--<span class="psw">Forgot <a href="#">password?</a></span>-->
     </div>
   </form>
