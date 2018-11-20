@@ -1,8 +1,10 @@
 ﻿CREATE TABLE USUARIO(
 id_us INT PRIMARY KEY,
+username VARCHAR(50),
 nombre_us VARCHAR(50),
 apellido_us VARCHAR(50),
 contrasenia_us CHAR(8),
+token VARCHAR(255),
 admin_usuario BOOLEAN
 );
 
