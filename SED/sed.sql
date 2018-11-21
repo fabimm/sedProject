@@ -23,11 +23,35 @@ autor_pub VARCHAR(50),
 autor_photo TEXT
 );
 
+INSERT INTO PUBLICACION(titulo_pub ,contenido_pub ,photo_pub ,fecha_pub ,categoria_pub ,autor_pub,autor_photo ) 
+VALUES('Trucos sencillos para eliminar las ojeras','<p class="first-letter">Usa protección solar, porque aparte de fumar, la sobreexposición al sol es la causa principal de las arrugas, así que asegúrate de usar diariamente un protector solar para que tu piel se siga viendo muy bien, o por lo menos, sigue estos consejos:<br>
+                <div>
+                <lu>
+                  <li>Protege tu cara de los rayos del sol usando un sombrero y/o gafas de sol.</li>
+                  <li>Usa un hidratante nocturno y un hidratante diurno que incluya protección solar.</li>
+                  <li>Asegúrate de mantener tu cabello fuera de tu cara debido a que la grasa de tu cabello puede causar acné.</li>
+                  <li>Limpia tu cara después de que hacer ejercicio o haber hecho deporte.</li>
+                  <li>Si usas maquillaje, lava tu cara antes de hacer ejercicio o de hacer deporte.</li>
+                  <li>Debido a que tu piel se seca más durante el invierno… Usa tu hidratante más a menudo.</li>
+                  <li>Bebe más agua de tal forma que tu piel produzca menos grasa para prevenir erupciones.</li>
+                  <li>Bebe más agua para que también te ayude a hidratar tu piel para que se vea más radiante.</li><br>
+                </lu>
+                Abre tus poros con agua tibia para que limpies realmente tus poros mientras te duchas, y luego
+                cierra tus poros con agua más fría para evitar que la grasa vuelva a entrar en tu piel.</p>','foto1.jpg',NOW(),1,'Fabi Mayen','photos/fabi.jpg');
+
+
+
 CREATE TABLE CATEGORIA(
 id_cat SERIAL PRIMARY KEY,
 nombre_cat VARCHAR(7),
 descripcion_cat VARCHAR(150)
 );
+
+
+INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Moda','Algo');
+INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Moda1','Algo');
+INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Moda2','Algo');
+INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Moda3','Algo');
 
 --CREATE TABLE COMENTARIOS(
 --id_com INT PRIMARY KEY,

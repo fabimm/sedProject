@@ -47,34 +47,6 @@
                 <ul class="rd-navbar-nav">
                   <li class="active"><a href="index.php">Inicio</a>
                   </li>
-                  <li><a href="#">Belleza</a>
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="belleza1.php">Cuidado de la Piel</a>
-                      </li>
-                      <li><a href="belleza2.php">Puntos Negros</a>
-                      </li>
-                      <li><a href="belleza3.php">Eliminar Ojeras</a>
-                      </li>
-                      <li><a href="belleza4.php">Countor Natural</a>
-                      </li>
-                      <li><a href="belleza5.php">Eliminar Estrias</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Salud</a>
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="salud1.php">Eliminar el Sarro</a>
-                      </li>
-                      <li><a href="salud2.php">Desayunos Saludables</a>
-                      </li>
-                      <li><a href="salud3.php">Bajar de Peso</a>
-                      </li>
-                      <li><a href="salud4.php">Flor de Jamaica</a>
-                      </li>
-                      <li><a href="salud5.php">Beneficios del Chocolate</a>
-                      </li>
-                    </ul>
-                  </li>
                   <?php                      include('includes/buttonsUser.php')                   ?>
                   </li>
                 </ul>

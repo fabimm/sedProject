@@ -1,15 +1,15 @@
-<?php  include('checkUserLogged.php');  ?>
+<?php  include('includes/checkUserLogged.php');  ?>
 
 <?php
       $id_pub = pg_escape_string($db,$_GET['id']);
-      $sql = "SELECT * FROM usuario WHERE id_pub = '$id_pub'";
+      $sql = "SELECT * FROM publicacion INNER JOIN categoria on categoria_pub= id_cat  WHERE id_pub= '$id_pub'";
      
       $result = pg_exec($db,$sql);
       
       $post =pg_fetch_array($result,NULL, PGSQL_ASSOC);
       $count = pg_numrows($result);
       if($count == 0) {
-         header("location: notfound.php");
+        //  header("location: notfound.php");
       }
    
 ?>
@@ -62,34 +62,6 @@
                 <ul class="rd-navbar-nav">
                   <li class="active"><a href="index.php">Inicio</a>
                   </li>
-                  <li><a href="#">Belleza</a>
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="belleza1.php">Cuidado de la Piel</a>
-                      </li>
-                      <li><a href="belleza2.php">Puntos Negros</a>
-                      </li>
-                      <li><a href="belleza3.php">Eliminar Ojeras</a>
-                      </li>
-                      <li><a href="belleza4.php">Countor Natural</a>
-                      </li>
-                      <li><a href="belleza5.php">Eliminar Estrias</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Salud</a>
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="salud1.php">Eliminar el Sarro</a>
-                      </li>
-                      <li><a href="salud2.php">Desayunos Saludables</a>
-                      </li>
-                      <li><a href="salud3.php">Bajar de Peso</a>
-                      </li>
-                      <li><a href="salud4.php">Flor de Jamaica</a>
-                      </li>
-                      <li><a href="salud5.php">Beneficios del Chocolate</a>
-                      </li>
-                    </ul>
-                  </li>
                   <?php                      include('includes/buttonsUser.php')                   ?>
                   </li>
                 </ul>
@@ -101,18 +73,18 @@
       <section class="breadcrumbs-custom">
         <div class="container">
           <div class="breadcrumbs-custom__inner">
-            <p class="breadcrumbs-custom__title">Belleza: Aprende a cuidar tu piel.</p>
+            <p class="breadcrumbs-custom__title"><?php echo $post["nombre_cat"].":".$post["titulo_pub"]?></p>
           </div>
         </div>
       </section>
       <section class="section-xxl text-center bg-image-1">
         <div class="container nonstandart-post-header"><img class="img-circle" src="<?php echo $post["photo_pub"]?>" alt="" width="109" height="109"/>
-          <p class="heading-4">Fabi Mayén</p>
+          <p class="heading-4"><?php echo $post["autor_pub"]?></p>
           <h2><?php echo $post["titulo_pub"]?></h2>
           <div class="post-meta">
             <div class="group">
               <div class="icon-list-wrap icon icon-gray linear-icon-clock3"><a>
-                  <time datetime="2017"><?php echo $post["titulo_pub"]?></time></a></div>
+                  <time datetime="2017"><?php echo $post["fecha_pub"]?></time></a></div>
             </div>
           </div>
           <ul class="list-inline-sm">
