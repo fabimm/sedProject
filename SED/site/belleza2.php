@@ -2,7 +2,7 @@
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->
-    <title>Beneficios de la flor de jamaica</title>
+    <title>Elimina los puntos negros de manera fácil y económica</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,39 +39,39 @@
                 </div>
               <div class="rd-navbar-panel__main rd-navbar-search_collapsable">
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/BH-logo.png" alt="" width="154" height="35"/></a></div>
+                  <div class="rd-navbar-brand"><a class="brand-name" href="index.php"><img src="images/BH-logo.png" alt="" width="154" height="35"/></a></div>
                 </div>
               </div>
               <!-- RD Navbar Nav-->
               <div class="rd-navbar-nav-wrap">
                 <ul class="rd-navbar-nav">
-                  <li class="active"><a href="index.html">Inicio</a>
+                  <li class="active"><a href="index.php">Inicio</a>
                   </li>
                   <li><a href="#">Belleza</a>
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="belleza1.html">Cuidado de la Piel</a>
+                      <li><a href="belleza1.php">Cuidado de la Piel</a>
                       </li>
-                      <li><a href="belleza2.html">Puntos Negros</a>
+                      <li><a href="belleza2.php">Puntos Negros</a>
                       </li>
-                      <li><a href="belleza3.html">Eliminar Ojeras</a>
+                      <li><a href="belleza3.php">Eliminar Ojeras</a>
                       </li>
-                      <li><a href="belleza4.html">Countor Natural</a>
+                      <li><a href="belleza4.php">Countor Natural</a>
                       </li>
-                      <li><a href="belleza5.html">Eliminar Estrias</a>
+                      <li><a href="belleza5.php">Eliminar Estrias</a>
                       </li>
                     </ul>
                   </li>
                   <li><a href="#">Salud</a>
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="salud1.html">Eliminar el Sarro</a>
+                      <li><a href="salud1.php">Eliminar el Sarro</a>
                       </li>
-                      <li><a href="salud2.html">Desayunos Saludables</a>
+                      <li><a href="salud2.php">Desayunos Saludables</a>
                       </li>
-                      <li><a href="salud3.html">Bajar de Peso</a>
+                      <li><a href="salud3.php">Bajar de Peso</a>
                       </li>
-                      <li><a href="salud4.html">Flor de Jamaica</a>
+                      <li><a href="salud4.php">Flor de Jamaica</a>
                       </li>
-                      <li><a href="salud5.html">Beneficios del Chocolate</a>
+                      <li><a href="salud5.php">Beneficios del Chocolate</a>
                       </li>
                     </ul>
                   </li>
@@ -86,14 +86,14 @@
       <section class="breadcrumbs-custom">
         <div class="container">
           <div class="breadcrumbs-custom__inner">
-            <p class="breadcrumbs-custom__title">Salud: ¡Es tiempo de probar la flor de jamaica!</p>
+            <p class="breadcrumbs-custom__title">Belleza: Dile adiós a los puntos negros.</p>
           </div>
         </div>
       </section>
-      <section class="section-xxl text-center bg-image-6">
-        <div class="container nonstandart-post-header"><img class="img-circle" src="images/timeline-1-109x109.jpg" alt="" width="109" height="109"/>
-          <p class="heading-4">Fabi Mayén</p>
-          <h2>Beneficios de la flor de jamaica</h2>
+      <section class="section-xxl text-center bg-image-2">
+        <div class="container nonstandart-post-header"><img class="img-circle" src="images/kathy-belleza2.jpg" alt="" width="109" height="109"/>
+          <p class="heading-4">Kathy Gomar</p>
+          <h2>Elimina los puntos negros de manera fácil y económica</h2>
           <div class="post-meta">
             <div class="group">
               <div class="icon-list-wrap icon icon-gray linear-icon-clock3"><a>
@@ -131,20 +131,20 @@
                 Abre tus poros con agua tibia para que limpies realmente tus poros mientras te duchas, y luego
                 cierra tus poros con agua más fría para evitar que la grasa vuelva a entrar en tu piel.</p>
 
-                <img src="images/about-1-886x668.jpg" alt="" width="886" height="668"/>
+                <img src="images/eliminar-puntos-negros.jpg" alt="" width="886" height="668"/>
   
               </div>
 
               <section class="section-sm">
                 <div class="row row-60 justify-content-md-between post-nav-links">
-                  <div class="col-md-6 text-md-left"><a class="unit flex-row unit-spacing-md align-items-center" href="belleza2.html">
+                  <div class="col-md-6 text-md-left"><a class="unit flex-row unit-spacing-md align-items-center" href="salud1.php">
                       <div class="unit-left"><span class="icon icon-md linear-icon-arrow-left"></span></div>
                       <div class="unit-body">
-                        <p class="small">Elimina los puntos negros de manera fácil y económica</p>
-                      </div></a></div>
-                  <div class="col-md-6 text-md-right"><a class="unit flex-row unit-spacing-md align-items-center" href="salud1.html">
-                      <div class="unit-body">
                         <p class="small">Eliminar el sarro de tus dientes en 5 minutos</p>
+                      </div></a></div>
+                  <div class="col-md-6 text-md-right"><a class="unit flex-row unit-spacing-md align-items-center" href="belleza1.php">
+                      <div class="unit-body">
+                        <p class="small">Consejos para el cuidado de la piel</p>
                       </div>
                       <div class="unit__right"><span class="icon icon-md linear-icon-arrow-right"></span></div></a></div>
                 </div>
@@ -155,25 +155,25 @@
                 <div class="row row-60">
                   <div class="col-md-6">
                     <!-- Post classic-->
-                    <article class="post-classic post-minimal"><img src="images/post-minimal-1-418x315.jpg" alt="" width="418" height="315"/>
+                    <article class="post-classic post-minimal"><img src="images/puntos-negros.jpg" alt="" width="418" height="315"/>
                       <div class="post-classic-title">
-                        <h5><a href="image-post.html">Trucos sencillos para eliminar las ojeras…</a></h5>
+                        <h5><a href="belleza2.php">Elimina los puntos negros de manera fácil y económica</a></h5>
                       </div>
                       <div class="post-meta">
-                        <div class="post-inline__header-meta"><a href="belleza3.html">
-                            <time datetime="2017">Jan.20, 2016</time></a><a class="meta-author" href="belleza3.html">by Brian Williamson</a></div>
+                        <div class="post-inline__header-meta"><a href="belleza2.php">
+                            <time datetime="2017">Nov. 11, 2018</time></a><a class="meta-author" href="belleza2.php">por Kathy Gomar</a></div>
                       </div>
                     </article>
                   </div>
                   <div class="col-md-6">
                     <!-- Post classic-->
-                    <article class="post-classic post-minimal"><img src="images/blog10-886x668.jpg" alt="" width="886" height="668"/>
+                    <article class="post-classic post-minimal"><img src="images/ojeras-hombre-belleza1.jpg" alt="" width="886" height="668"/>
                       <div class="post-classic-title">
-                        <h5><a href="image-post.html">Desayunos saludables</a></h5>
+                        <h5><a href="belleza3.php">Trucos sencillos para eliminar las ojeras</a></h5>
                       </div>
                       <div class="post-meta">
-                        <div class="post-inline__header-meta"><a href="salud2.html">
-                            <time datetime="2017">Jan.20, 2016</time></a><a class="meta-author" href="salud2.html">by Brian Williamson</a></div>
+                        <div class="post-inline__header-meta"><a href="belleza3.php">
+                            <time datetime="2017">Oct. 30, 2016</time></a><a class="meta-author" href="belleza3.php">por José Aldana</a></div>
                       </div>
                     </article>
                   </div>
@@ -185,10 +185,10 @@
         <div class="container">
           <div class="row justify-content-sm-center">
             <div class="col-md-10 col-xl-6">
-              <h5>GET LATEST NEWS DELIVERED DAILY! WE WILL SEND YOU BREAKING NEWS RIGHT TO YOUR INBOX</h5>
+              <h5>TENEMOS EL MEJOR CONTENIDO SOBRE BELLEZA Y SALUD</h5>
               <!-- RD Mailform-->
               <div class="center"> <br>
-                <button class="button button-gray-light-outline" type="submit">Subscribe!</button>
+                <button class="button button-gray-light-outline" type="submit">Suscríbete</button>
               </div>
               <ul class="list-inline-sm footer-minimal__list">
                 <li><a class="icon icon-sm icon-gray-4 fa fa-facebook" href="#"></a></li>
@@ -198,7 +198,7 @@
                 <li><a class="icon icon-sm icon-gray-4 fa fa-youtube" href="#"></a></li>
                 <li><a class="icon icon-sm icon-gray-4 fa fa-pinterest" href="#"></a></li>
               </ul>
-              <p class="rights"><span>Beaurt & Health</span><span>&nbsp;</span><span>©</span><span>&nbsp;</span><span class="copyright-year"></span>.</p>
+              <p class="rights"><span>BEAUTY&HEALTH</span><span>&nbsp;</span><span>©</span><span>&nbsp;</span><span class="copyright-year"></span>.</p>
             </div>
           </div>
         </div>

@@ -39,39 +39,39 @@
                 </div>
               <div class="rd-navbar-panel__main rd-navbar-search_collapsable">
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/BH-logo.png" alt="" width="154" height="35"/></a></div>
+                  <div class="rd-navbar-brand"><a class="brand-name" href="index.php"><img src="images/BH-logo.png" alt="" width="154" height="35"/></a></div>
                 </div>
               </div>
               <!-- RD Navbar Nav-->
               <div class="rd-navbar-nav-wrap">
                 <ul class="rd-navbar-nav">
-                  <li class="active"><a href="index.html">Inicio</a>
+                  <li class="active"><a href="index.php">Inicio</a>
                   </li>
                   <li><a href="#">Belleza</a>
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="belleza1.html">Cuidado de la Piel</a>
+                      <li><a href="belleza1.php">Cuidado de la Piel</a>
                       </li>
-                      <li><a href="belleza2.html">Puntos Negros</a>
+                      <li><a href="belleza2.php">Puntos Negros</a>
                       </li>
-                      <li><a href="belleza3.html">Eliminar Ojeras</a>
+                      <li><a href="belleza3.php">Eliminar Ojeras</a>
                       </li>
-                      <li><a href="belleza4.html">Countor Natural</a>
+                      <li><a href="belleza4.php">Countor Natural</a>
                       </li>
-                      <li><a href="belleza5.html">Eliminar Estrias</a>
+                      <li><a href="belleza5.php">Eliminar Estrias</a>
                       </li>
                     </ul>
                   </li>
                   <li><a href="#">Salud</a>
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="salud1.html">Eliminar el Sarro</a>
+                      <li><a href="salud1.php">Eliminar el Sarro</a>
                       </li>
-                      <li><a href="salud2.html">Desayunos Saludables</a>
+                      <li><a href="salud2.php">Desayunos Saludables</a>
                       </li>
-                      <li><a href="salud3.html">Bajar de Peso</a>
+                      <li><a href="salud3.php">Bajar de Peso</a>
                       </li>
-                      <li><a href="salud4.html">Flor de Jamaica</a>
+                      <li><a href="salud4.php">Flor de Jamaica</a>
                       </li>
-                      <li><a href="salud5.html">Beneficios del Chocolate</a>
+                      <li><a href="salud5.php">Beneficios del Chocolate</a>
                       </li>
                     </ul>
                   </li>
@@ -137,12 +137,12 @@
 
               <section class="section-sm">
                 <div class="row row-60 justify-content-md-between post-nav-links">
-                  <div class="col-md-6 text-md-left"><a class="unit flex-row unit-spacing-md align-items-center" href="belleza2.html">
+                  <div class="col-md-6 text-md-left"><a class="unit flex-row unit-spacing-md align-items-center" href="belleza2.php">
                       <div class="unit-left"><span class="icon icon-md linear-icon-arrow-left"></span></div>
                       <div class="unit-body">
                         <p class="small">Elimina los puntos negros de manera fácil y económica</p>
                       </div></a></div>
-                  <div class="col-md-6 text-md-right"><a class="unit flex-row unit-spacing-md align-items-center" href="salud1.html">
+                  <div class="col-md-6 text-md-right"><a class="unit flex-row unit-spacing-md align-items-center" href="salud1.php">
                       <div class="unit-body">
                         <p class="small">Eliminar el sarro de tus dientes en 5 minutos</p>
                       </div>
@@ -156,11 +156,11 @@
                     <!-- Post classic-->
                     <article class="post-classic post-minimal"><img src="images/post-minimal-1-418x315.jpg" alt="" width="418" height="315"/>
                       <div class="post-classic-title">
-                        <h5><a href="image-post.html">Trucos sencillos para eliminar las ojeras…</a></h5>
+                        <h5><a href="image-post.php">Trucos sencillos para eliminar las ojeras…</a></h5>
                       </div>
                       <div class="post-meta">
-                        <div class="post-inline__header-meta"><a href="belleza3.html">
-                            <time datetime="2017">Jan.20, 2016</time></a><a class="meta-author" href="belleza3.html">by Brian Williamson</a></div>
+                        <div class="post-inline__header-meta"><a href="belleza3.php">
+                            <time datetime="2017">Jan.20, 2016</time></a><a class="meta-author" href="belleza3.php">by Brian Williamson</a></div>
                       </div>
                     </article>
                   </div>
@@ -168,11 +168,11 @@
                     <!-- Post classic-->
                     <article class="post-classic post-minimal"><img src="images/blog10-886x668.jpg" alt="" width="886" height="668"/>
                       <div class="post-classic-title">
-                        <h5><a href="image-post.html">Desayunos saludables</a></h5>
+                        <h5><a href="image-post.php">Desayunos saludables</a></h5>
                       </div>
                       <div class="post-meta">
-                        <div class="post-inline__header-meta"><a href="salud2.html">
-                            <time datetime="2017">Jan.20, 2016</time></a><a class="meta-author" href="salud2.html">by Brian Williamson</a></div>
+                        <div class="post-inline__header-meta"><a href="salud2.php">
+                            <time datetime="2017">Jan.20, 2016</time></a><a class="meta-author" href="salud2.php">by Brian Williamson</a></div>
                       </div>
                     </article>
                   </div>

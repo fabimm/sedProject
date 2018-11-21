@@ -60,39 +60,39 @@ include('checkUserLogged.php');
                 </div>
                 <div class="rd-navbar-panel__main rd-navbar-search_collapsable">
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/BH-logo.png" alt="" width="144" height="25"/></a></div>
+                  <div class="rd-navbar-brand"><a class="brand-name" href="index.php"><img src="images/BH-logo.png" alt="" width="144" height="25"/></a></div>
                 </div>
               </div>
               <!-- RD Navbar Nav-->
               <div class="rd-navbar-nav-wrap">
                 <ul class="rd-navbar-nav">
-                  <li class="active"><a href="index.html">Inicio</a>
+                  <li class="active"><a href="index.php">Inicio</a>
                   </li>
                   <li><a href="#">Belleza</a>
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="belleza1.html">Cuidado de la Piel</a>
+                      <li><a href="belleza1.php">Cuidado de la Piel</a>
                       </li>
-                      <li><a href="belleza2.html">Puntos Negros</a>
+                      <li><a href="belleza2.php">Puntos Negros</a>
                       </li>
-                      <li><a href="belleza3.html">Eliminar Ojeras</a>
+                      <li><a href="belleza3.php">Eliminar Ojeras</a>
                       </li>
-                      <li><a href="belleza4.html">Countor Natural</a>
+                      <li><a href="belleza4.php">Countor Natural</a>
                       </li>
-                      <li><a href="belleza5.html">Eliminar Estrias</a>
+                      <li><a href="belleza5.php">Eliminar Estrias</a>
                       </li>
                     </ul>
                   </li>
                   <li><a href="#">Salud</a>
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="salud1.html">Eliminar el Sarro</a>
+                      <li><a href="salud1.php">Eliminar el Sarro</a>
                       </li>
-                      <li><a href="salud2.html">Desayunos Saludables</a>
+                      <li><a href="salud2.php">Desayunos Saludables</a>
                       </li>
-                      <li><a href="salud3.html">Bajar de Peso</a>
+                      <li><a href="salud3.php">Bajar de Peso</a>
                       </li>
-                      <li><a href="salud4.html">Flor de Jamaica</a>
+                      <li><a href="salud4.php">Flor de Jamaica</a>
                       </li>
-                      <li><a href="salud5.html">Beneficios del Chocolate</a>
+                      <li><a href="salud5.php">Beneficios del Chocolate</a>
                       </li>
                     </ul>
                   </li>
@@ -115,7 +115,7 @@ include('checkUserLogged.php');
                   <div class="container">
                     <h1 data-caption-animate="fadeInLeftSmall"><span>Beauty & Health</span></h1>
                     <h3 data-caption-animate="fadeInLeftSmall" data-caption-delay="200">La nueva generación de salud</h3>
-                    <div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="//www.templatemonster.com/website-templates/monstroid2.html">Iniciar Sesión</a></div>
+                    <div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="//www.templatemonster.com/website-templates/monstroid2.php">Iniciar Sesión</a></div>
                   </div>
                 </div>
               </div>
@@ -125,7 +125,7 @@ include('checkUserLogged.php');
                     <h2 class="text-width-2" data-caption-animate="fadeInLeftSmall">
                        Descubre todo el potencial
                        de la salud
-                    </h2><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="200" href="//www.templatemonster.com/website-templates/monstroid2.html">Iniciar Sesión</a>
+                    </h2><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="200" href="//www.templatemonster.com/website-templates/monstroid2.php">Iniciar Sesión</a>
                   </div>
                 </div>
               </div>
@@ -134,7 +134,7 @@ include('checkUserLogged.php');
                   <div class="container">
                     <h2 data-caption-animate="fadeInLeftSmall">Consejos y trucos de belleza</h2>
                    
-                    <div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="//www.templatemonster.com/website-templates/monstroid2.html">Iniciar Sesión</a></div>
+                    <div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="//www.templatemonster.com/website-templates/monstroid2.php">Iniciar Sesión</a></div>
                   </div>
                 </div>
               </div>
@@ -158,15 +158,15 @@ include('checkUserLogged.php');
                 </figure>
                 <div class="caption">
                   <div class="post-fashion-style-title">
-                    <h5><a href="belleza1.html">Consejos para el cuidado de la piel</a></h5>
+                    <h5><a href="belleza1.php">Consejos para el cuidado de la piel</a></h5>
                   </div>
                   <ul class="post-fashion-style-meta">
                     <li>
                       <time datetime="2016">Nov. 10, 2018</time>
                     </li>
-                    <li><a href="belleza1.html">por Fabi Mayén</a></li>
+                    <li><a href="belleza1.php">por Fabi Mayén</a></li>
                   </ul>
-                  <div class="post-fashion-style-footer"><a class="button button-link" href="belleza1.html">Leer más</a></div>
+                  <div class="post-fashion-style-footer"><a class="button button-link" href="belleza1.php">Leer más</a></div>
                 </div>
               </div>
             </div>
@@ -178,15 +178,15 @@ include('checkUserLogged.php');
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
-                        <h5><a href="belleza2.html">Elimina los puntos negros de manera fácil</a></h5>
+                        <h5><a href="belleza2.php">Elimina los puntos negros de manera fácil</a></h5>
                       </div>
                       <ul class="post-fashion-style-meta">
                         <li>
                           <time datetime="2016">Nov. 11, 2018</time>
                         </li>
-                        <li><a href="belleza2.html">por Kathy Gomar</a></li>
+                        <li><a href="belleza2.php">por Kathy Gomar</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza2.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza2.php">Leer más</a></div>
                     </div>
                   </div>
                   <div class="post-fashion-style">
@@ -194,15 +194,15 @@ include('checkUserLogged.php');
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
-                        <h5><a href="belleza3.html">Trucos sencillos para eliminar ojeras</a></h5>
+                        <h5><a href="belleza3.php">Trucos sencillos para eliminar ojeras</a></h5>
                       </div>
                       <ul class="post-fashion-style-meta">
                         <li>
                           <time datetime="2016">Oct. 30, 2018</time>
                         </li>
-                        <li><a href="belleza3.html">por José Aldana</a></li>
+                        <li><a href="belleza3.php">por José Aldana</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza3.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza3.php">Leer más</a></div>
                     </div>
                   </div>
                 </div>
@@ -212,15 +212,15 @@ include('checkUserLogged.php');
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
-                        <h5><a href="belleza4.html">Cómo lograr un contour natural</a></h5>
+                        <h5><a href="belleza4.php">Cómo lograr un contour natural</a></h5>
                       </div>
                       <ul class="post-fashion-style-meta">
                         <li>
                           <time datetime="2016">Feb. 28, 2018</time>
                         </li>
-                        <li><a href="belleza4.html">por Fabi Mayén</a></li>
+                        <li><a href="belleza4.php">por Fabi Mayén</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza4.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza4.php">Leer más</a></div>
                     </div>
                   </div>
                   <div class="post-fashion-style">
@@ -228,15 +228,15 @@ include('checkUserLogged.php');
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
-                        <h5><a href="salud1.html">Elimina el sarro de tus dientes</a></h5>
+                        <h5><a href="salud1.php">Elimina el sarro de tus dientes</a></h5>
                       </div>
                       <ul class="post-fashion-style-meta">
                         <li>
                           <time datetime="2016">Mar. 22, 2018</time>
                         </li>
-                        <li><a href="salud1.html">por Walter D Cid</a></li>
+                        <li><a href="salud1.php">por Walter D Cid</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="salud1.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="salud1.php">Leer más</a></div>
                     </div>
                   </div>
                 </div>
@@ -263,15 +263,15 @@ include('checkUserLogged.php');
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
-                        <h5><a href="belleza1.html">Consejos para el cuidado de la piel</a></h5>
+                        <h5><a href="belleza1.php">Consejos para el cuidado de la piel</a></h5>
                       </div>
                       <ul class="post-fashion-style-meta">
                         <li>
                           <time datetime="2016">Nov. 10, 2018</time>
                         </li>
-                        <li><a href="belleza1.html">por Fabi Mayén</a></li>
+                        <li><a href="belleza1.php">por Fabi Mayén</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza1.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza1.php">Leer más</a></div>
                     </div>
                   </div>
                 </div>
@@ -281,15 +281,15 @@ include('checkUserLogged.php');
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
-                        <h5><a href="belleza2.html">Elimina los puntos negros</a></h5>
+                        <h5><a href="belleza2.php">Elimina los puntos negros</a></h5>
                       </div>
                       <ul class="post-fashion-style-meta">
                         <li>
                           <time datetime="2016">Nov. 11, 2018</time>
                         </li>
-                        <li><a href="belleza2.html">por Kathy Gomar</a></li>
+                        <li><a href="belleza2.php">por Kathy Gomar</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza2.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza2.php">Leer más</a></div>
                     </div>
                   </div>
                 </div>
@@ -301,8 +301,8 @@ include('checkUserLogged.php');
                     </div>
                     <div class="unit-body post-inline">
                       <div class="post-inline__header">
-                        <div class="post-inline__header-meta"><span class="post-inline__time">Oct. 30, 2018</span><a class="post-inline__author meta-author" href="belleza3.html">por José Aldana</a></div>
-                        <h5><a href="belleza3.html">Trucos sencillos para eliminar ojeras</a></h5>
+                        <div class="post-inline__header-meta"><span class="post-inline__time">Oct. 30, 2018</span><a class="post-inline__author meta-author" href="belleza3.php">por José Aldana</a></div>
+                        <h5><a href="belleza3.php">Trucos sencillos para eliminar ojeras</a></h5>
                       </div>
                     </div>
                   </article>
@@ -315,8 +315,8 @@ include('checkUserLogged.php');
                     </div>
                     <div class="unit-body post-inline">
                       <div class="post-inline__header">
-                        <div class="post-inline__header-meta"><span class="post-inline__time">Feb. 28, 2018</span><a class="post-inline__author meta-author" href="belleza4.html">por Fabi Mayén</a></div>
-                        <h5><a href="belleza4.html">Cómo lograr un contour natural</a></h5>
+                        <div class="post-inline__header-meta"><span class="post-inline__time">Feb. 28, 2018</span><a class="post-inline__author meta-author" href="belleza4.php">por Fabi Mayén</a></div>
+                        <h5><a href="belleza4.php">Cómo lograr un contour natural</a></h5>
                       </div>
                     </div>
                   </article>
@@ -329,15 +329,15 @@ include('checkUserLogged.php');
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
-                        <h5><a href="salud1.html">Elimina el sarro de tus dientes</a></h5>
+                        <h5><a href="salud1.php">Elimina el sarro de tus dientes</a></h5>
                       </div>
                       <ul class="post-fashion-style-meta">
                         <li>
                           <time datetime="2016">Mar. 22, 2018</time>
                         </li>
-                        <li><a href="salud1.html">por Walter Del Cid</a></li>
+                        <li><a href="salud1.php">por Walter Del Cid</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.php">Leer más</a></div>
                     </div>
                   </div>
                 </div>
@@ -347,15 +347,15 @@ include('checkUserLogged.php');
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
-                        <h5><a href="salud2.html">Desayunos saludables</a></h5>
+                        <h5><a href="salud2.php">Desayunos saludables</a></h5>
                       </div>
                       <ul class="post-fashion-style-meta">
                         <li>
                           <time datetime="2016">Aug. 15, 2018</time>
                         </li>
-                        <li><a href="salud2.html">por José Aldana</a></li>
+                        <li><a href="salud2.php">por José Aldana</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.php">Leer más</a></div>
                     </div>
                   </div>
                 </div>
@@ -367,8 +367,8 @@ include('checkUserLogged.php');
                     </div>
                     <div class="unit-body post-inline">
                       <div class="post-inline__header">
-                        <div class="post-inline__header-meta"><span class="post-inline__time">Jan. 7, 2018</span><a class="post-inline__author meta-author" href="salud3.html">por Ivania Aguilar</a></div>
-                        <h5><a href="salud3.html">Ejercicios para bajar de peso</a></h5>
+                        <div class="post-inline__header-meta"><span class="post-inline__time">Jan. 7, 2018</span><a class="post-inline__author meta-author" href="salud3.php">por Ivania Aguilar</a></div>
+                        <h5><a href="salud3.php">Ejercicios para bajar de peso</a></h5>
                       </div>
                     </div>
                   </article>
@@ -381,8 +381,8 @@ include('checkUserLogged.php');
                     </div>
                     <div class="unit-body post-inline">
                       <div class="post-inline__header">
-                        <div class="post-inline__header-meta"><span class="post-inline__time">Mar. 6, 2018</span><a class="post-inline__author meta-author" href="salud4.html">por María Estrada</a></div>
-                        <h5><a href="salud4.html">Beneficios de la flor de jamaica</a></h5>
+                        <div class="post-inline__header-meta"><span class="post-inline__time">Mar. 6, 2018</span><a class="post-inline__author meta-author" href="salud4.php">por María Estrada</a></div>
+                        <h5><a href="salud4.php">Beneficios de la flor de jamaica</a></h5>
                       </div>
                     </div>
                   </article>

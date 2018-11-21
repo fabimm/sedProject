@@ -39,47 +39,47 @@
                 </div>
                 <div class="rd-navbar-panel__main rd-navbar-search_collapsable">
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/logo-inverse2-144x25.png" alt="" width="144" height="25"/></a></div>
+                  <div class="rd-navbar-brand"><a class="brand-name" href="index.php"><img src="images/logo-inverse2-144x25.png" alt="" width="144" height="25"/></a></div>
                 </div>
               </div>
               <!-- RD Navbar Nav-->
               <div class="rd-navbar-nav-wrap">
                 <ul class="rd-navbar-nav">
-                  <li><a href="index.html">Home</a>
+                  <li><a href="index.php">Home</a>
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="home-blog.html">Home Blog</a>
+                      <li><a href="home-blog.php">Home Blog</a>
                       </li>
                       <li><a href="#">Headers</a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="header-default.html">Header Default</a></li>
-                          <li><a href="header-modern.html">Header Modern</a></li>
-                          <li><a href="header-creative.html">Header Creative</a></li>
-                          <li><a href="header-sidebar.html">Header Sidebar</a></li>
-                          <li><a href="header-sidebar-inverse.html">Header Sidebar Inverse</a></li>
+                          <li><a href="header-default.php">Header Default</a></li>
+                          <li><a href="header-modern.php">Header Modern</a></li>
+                          <li><a href="header-creative.php">Header Creative</a></li>
+                          <li><a href="header-sidebar.php">Header Sidebar</a></li>
+                          <li><a href="header-sidebar-inverse.php">Header Sidebar Inverse</a></li>
                         </ul>
                       </li>
                       <li><a href="#">Footers</a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="footer-corporate.html">Footer Corporate</a></li>
-                          <li><a href="footer-minimal.html">Footer Minimal</a></li>
-                          <li><a href="footer-modern.html">Footer Modern</a></li>
+                          <li><a href="footer-corporate.php">Footer Corporate</a></li>
+                          <li><a href="footer-minimal.php">Footer Minimal</a></li>
+                          <li><a href="footer-modern.php">Footer Modern</a></li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li><a href="#">Pages</a>
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="about.html">About</a>
+                      <li><a href="about.php">About</a>
                       </li>
-                      <li><a href="contacts.html">Contacts</a>
+                      <li><a href="contacts.php">Contacts</a>
                       </li>
-                      <li><a href="404-page.html">404 Page</a>
+                      <li><a href="404-page.php">404 Page</a>
                       </li>
-                      <li><a href="search-results.html">Search Results</a>
+                      <li><a href="search-results.php">Search Results</a>
                       </li>
-                      <li><a href="coming-soon.html">Coming Soon</a>
+                      <li><a href="coming-soon.php">Coming Soon</a>
                       </li>
-                      <li><a href="privacy-policy.html">Privacy Policy</a>
+                      <li><a href="privacy-policy.php">Privacy Policy</a>
                       </li>
                     </ul>
                   </li>
@@ -87,30 +87,30 @@
                     <ul class="rd-navbar-dropdown">
                       <li><a href="#">Post Formats</a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="standard-post.html">Standard post</a></li>
-                          <li><a href="nonstandard-post-with-sidebar.html">Nonstandard post with sidebar</a></li>
-                          <li><a href="nonstandard-post.html">Nonstandard post</a></li>
-                          <li><a href="gallery-post.html">Gallery post</a></li>
-                          <li><a href="image-post.html">Image post</a></li>
-                          <li><a href="link-post.html">Link post</a></li>
-                          <li><a href="quote-post.html">Quote post</a></li>
-                          <li><a href="video-post.html">Video post</a></li>
-                          <li><a href="audio-post.html">Audio post</a></li>
+                          <li><a href="standard-post.php">Standard post</a></li>
+                          <li><a href="nonstandard-post-with-sidebar.php">Nonstandard post with sidebar</a></li>
+                          <li><a href="nonstandard-post.php">Nonstandard post</a></li>
+                          <li><a href="gallery-post.php">Gallery post</a></li>
+                          <li><a href="image-post.php">Image post</a></li>
+                          <li><a href="link-post.php">Link post</a></li>
+                          <li><a href="quote-post.php">Quote post</a></li>
+                          <li><a href="video-post.php">Video post</a></li>
+                          <li><a href="audio-post.php">Audio post</a></li>
                         </ul>
                       </li>
                       <li><a href="#">Blog Layouts</a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="classic-blog.html">Classic Blog</a></li>
-                          <li><a href="grid-blog.html">Grid Blog</a></li>
-                          <li><a href="masonry-blog.html">Masonry Blog</a></li>
-                          <li><a href="justify-blog.html">Justify Blog</a></li>
+                          <li><a href="classic-blog.php">Classic Blog</a></li>
+                          <li><a href="grid-blog.php">Grid Blog</a></li>
+                          <li><a href="masonry-blog.php">Masonry Blog</a></li>
+                          <li><a href="justify-blog.php">Justify Blog</a></li>
                         </ul>
                       </li>
                       <li><a href="#">Sidebar</a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="left-sidebar.html">Left Sidebar</a></li>
-                          <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                          <li><a href="no-sidebar.html">No Sidebar</a></li>
+                          <li><a href="left-sidebar.php">Left Sidebar</a></li>
+                          <li><a href="right-sidebar.php">Right Sidebar</a></li>
+                          <li><a href="no-sidebar.php">No Sidebar</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -119,23 +119,23 @@
                     <ul class="rd-navbar-megamenu">
                       <li>
                         <ul class="rd-megamenu-list">
-                          <li><a href="accordion.html">Accordion</a></li>
-                          <li><a href="buttons.html">Buttons</a></li>
-                          <li><a href="typography.html">Typography</a></li>
+                          <li><a href="accordion.php">Accordion</a></li>
+                          <li><a href="buttons.php">Buttons</a></li>
+                          <li><a href="typography.php">Typography</a></li>
                         </ul>
                       </li>
                       <li>
                         <ul class="rd-megamenu-list">
-                          <li><a href="countdown.html">Countdown</a></li>
-                          <li><a href="number-counter.html">Number Counter</a></li>
-                          <li><a href="circles-counter.html">Circles Counter</a></li>
+                          <li><a href="countdown.php">Countdown</a></li>
+                          <li><a href="number-counter.php">Number Counter</a></li>
+                          <li><a href="circles-counter.php">Circles Counter</a></li>
                         </ul>
                       </li>
                       <li>
                         <ul class="rd-megamenu-list">
-                          <li><a href="pricing-table.html">Pricing Table</a></li>
-                          <li><a href="tabs.html">Tabs</a></li>
-                          <li><a href="testimonials.html">Testimonials</a></li>
+                          <li><a href="pricing-table.php">Pricing Table</a></li>
+                          <li><a href="tabs.php">Tabs</a></li>
+                          <li><a href="testimonials.php">Testimonials</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -151,7 +151,7 @@
           <div class="breadcrumbs-custom__inner">
             <p class="breadcrumbs-custom__title">Buttons</p>
             <ul class="breadcrumbs-custom__path">
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.php">Home</a></li>
               <li><a href="#">Elements</a></li>
               <li class="active">Buttons</li>
             </ul>
@@ -186,15 +186,15 @@
                       </figure>
                       <div class="caption">
                         <div class="post-fashion-style-title">
-                          <h5><a href="image-post.html">Coffee Break: Knotted Cashmere Hemmed Ruana</a></h5>
+                          <h5><a href="image-post.php">Coffee Break: Knotted Cashmere Hemmed Ruana</a></h5>
                         </div>
                         <ul class="post-fashion-style-meta">
                           <li>
                             <time datetime="2016">Nov. 8, 2016</time>
                           </li>
-                          <li><a href="image-post.html">by admin</a></li>
+                          <li><a href="image-post.php">by admin</a></li>
                         </ul>
-                        <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Read More</a></div>
+                        <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.php">Read More</a></div>
                       </div>
                     </div>
           </div>
@@ -204,15 +204,15 @@
                       </figure>
                       <div class="caption">
                         <div class="post-fashion-style-title">
-                          <h5><a href="image-post.html">Lucky 7: Must do Things in Las Vegas</a></h5>
+                          <h5><a href="image-post.php">Lucky 7: Must do Things in Las Vegas</a></h5>
                         </div>
                         <ul class="post-fashion-style-meta">
                           <li>
                             <time datetime="2016">Nov. 8, 2016</time>
                           </li>
-                          <li><a href="image-post.html">by admin</a></li>
+                          <li><a href="image-post.php">by admin</a></li>
                         </ul>
-                        <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Read More</a></div>
+                        <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.php">Read More</a></div>
                       </div>
                     </div>
           </div>
@@ -222,15 +222,15 @@
                       </figure>
                       <div class="caption">
                         <div class="post-fashion-style-title">
-                          <h5><a href="image-post.html">Sasha And Malia Obama's Style Evolution</a></h5>
+                          <h5><a href="image-post.php">Sasha And Malia Obama's Style Evolution</a></h5>
                         </div>
                         <ul class="post-fashion-style-meta">
                           <li>
                             <time datetime="2016">Nov. 8, 2016</time>
                           </li>
-                          <li><a href="image-post.html">by admin</a></li>
+                          <li><a href="image-post.php">by admin</a></li>
                         </ul>
-                        <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Read More</a></div>
+                        <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.php">Read More</a></div>
                       </div>
                     </div>
           </div>
@@ -240,15 +240,15 @@
                       </figure>
                       <div class="caption">
                         <div class="post-fashion-style-title">
-                          <h5><a href="image-post.html">Selena Gomez Makes Leggings Look Chic With The Right Coat</a></h5>
+                          <h5><a href="image-post.php">Selena Gomez Makes Leggings Look Chic With The Right Coat</a></h5>
                         </div>
                         <ul class="post-fashion-style-meta">
                           <li>
                             <time datetime="2016">Nov. 8, 2016</time>
                           </li>
-                          <li><a href="image-post.html">by admin</a></li>
+                          <li><a href="image-post.php">by admin</a></li>
                         </ul>
-                        <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Read More</a></div>
+                        <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.php">Read More</a></div>
                       </div>
                     </div>
           </div>
@@ -258,15 +258,15 @@
                       </figure>
                       <div class="caption">
                         <div class="post-fashion-style-title">
-                          <h5><a href="image-post.html">Suit of the Week: Bright Touches to Add</a></h5>
+                          <h5><a href="image-post.php">Suit of the Week: Bright Touches to Add</a></h5>
                         </div>
                         <ul class="post-fashion-style-meta">
                           <li>
                             <time datetime="2016">Nov. 8, 2016</time>
                           </li>
-                          <li><a href="image-post.html">by admin</a></li>
+                          <li><a href="image-post.php">by admin</a></li>
                         </ul>
-                        <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Read More</a></div>
+                        <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.php">Read More</a></div>
                       </div>
                     </div>
           </div>
