@@ -91,7 +91,7 @@
                       </li>
                     </ul>
                   </li>
-                  <li><a href="login.html">Iniciar Sesión</a>
+                  <li><a href="login.php">Iniciar Sesión</a>
                   </li>
                 </ul>
               </div>

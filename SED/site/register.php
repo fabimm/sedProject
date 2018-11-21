@@ -4,26 +4,32 @@
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {
       // username and password sent from form 
+      //pg_escape_string(..)//pg_escape_string(..)
+      $myusername = pg_escape_string($db,$_POST['username']);
+      $mypassword = pg_escape_string($db,md5($_POST['password'])); 
+      $nombre = pg_escape_string($db,$_POST['unombre']); 
+      $apellido = pg_escape_string($db,$_POST['uapellido']); 
       
-      $myusername = mysqli_real_escape_string($db,$_POST['username']);
-      $mypassword = mysqli_real_escape_string($db,$_POST['password']); 
-      
-      $sql = "SELECT id FROM admin WHERE username = '$myusername' and contrasenia_us = '$mypassword'";
-      $result = mysqli_query($db,$sql);
-      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+      $sql = "insert into usuario values(1,'$myusername','Kevin Allen','Perez Baires','$mypassword',false)";
+     // pg_exec(...) //pg_exec(..)
+      $result = pg_exec($db,$sql);
+      //pg_fetch_array(..) //pg_fetch_array(..)
+      $row =pg_fetch_array($result,NULL, PGSQL_ASSOC);
       $active = $row['active'];
-      
-      $count = mysqli_num_rows($result);
+      //pg_numrows(..) // pg_numrows(..)
+      $count = pg_numrows($result);
       
       // If result matched $myusername and $mypassword, table row must be 1 row
 		
       if($count == 1) {
-         session_register("myusername");
+        //   $_SESSION['myusername']="something";
+        //  session_register("myusername");
          $_SESSION['login_user'] = $myusername;
          
          header("location: index.php");
       }else {
          $error = "Your Login Name or Password is invalid";
+         echo "Your Login Name or Password is invalid";
       }
    }
 ?>
@@ -188,7 +194,7 @@
         
       <button type="submit">Registrarse</button>
       <label>
-        <input type="checkbox" checked="checked" name="remember"> Recuérdame
+        <!-- <input type="checkbox" checked="checked" name="remember"> Recuérdame -->
       </label>
     </div>
 
