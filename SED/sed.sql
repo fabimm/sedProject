@@ -12,20 +12,22 @@ SELECT * FROM USUARIO;
 
 --ALTER TABLE USUARIO ADD CONSTRAINT constraint_name FOREIGN KEY (c1) REFERENCES parent_table (p1);
 
---CREATE TABLE PUBLICACION(
---id_pub INT PRIMARY KEY,
---titulo_pub VARCHAR(150),
---contenido_pub VARCHAR(1000),
---fecha_pub DATE,
---categoria_pub VARCHAR(7),
---autor_pub VARCHAR(50)
---);
+CREATE TABLE PUBLICACION(
+id_pub SERIAL PRIMARY KEY,
+titulo_pub VARCHAR(150),
+contenido_pub TEXT,
+photo_pub TEXT,
+fecha_pub DATE,
+categoria_pub int,
+autor_pub VARCHAR(50),
+autor_photo TEXT
+);
 
---CREATE TABLE CATEGORIA(
---id_cat INT PRIMARY KEY,
---nombre_cat VARCHAR(7),
---descripcion_cat VARCHAR(150)
---);
+CREATE TABLE CATEGORIA(
+id_cat SERIAL PRIMARY KEY,
+nombre_cat VARCHAR(7),
+descripcion_cat VARCHAR(150)
+);
 
 --CREATE TABLE COMENTARIOS(
 --id_com INT PRIMARY KEY,
