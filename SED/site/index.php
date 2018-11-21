@@ -1,9 +1,5 @@
-<?php
 
-include('checkUserLogged.php');
-
-?>
-<!DOCTYPE html>
+<?php  include('checkUserLogged.php');  ?><!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->
@@ -96,7 +92,7 @@ include('checkUserLogged.php');
                       </li>
                     </ul>
                   </li>
-                  <li><a href="login.php">Iniciar Sesión</a>
+                  <?php                    include('buttonsUser.php')                   ?>
                   </li>
                 </ul>
               </div>

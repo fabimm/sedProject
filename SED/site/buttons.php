@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php  include('checkUserLogged.php');  ?><!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->

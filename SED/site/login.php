@@ -1,7 +1,7 @@
 <?php
 $page = "login";
 include("config.php");
-session_start();
+session_start([   'cookie_lifetime' => 7200]);
 include("checkLoginCookie.php");
 ?>
 
