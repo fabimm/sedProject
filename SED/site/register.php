@@ -10,26 +10,14 @@
       $nombre = pg_escape_string($db,$_POST['unombre']); 
       $apellido = pg_escape_string($db,$_POST['uapellido']); 
       
-      $sql = "insert into usuario values(1,'$myusername','Kevin Allen','Perez Baires','$mypassword',false)";
+      $sql = "insert into usuario(username,nombre_us,apellido_us,contrasenia_us,admin_usuario) values('$myusername','$nombre','$apellido','$mypassword',false)";
      // pg_exec(...) //pg_exec(..)
       $result = pg_exec($db,$sql);
       //pg_fetch_array(..) //pg_fetch_array(..)
-      $row =pg_fetch_array($result,NULL, PGSQL_ASSOC);
-      $active = $row['active'];
-      //pg_numrows(..) // pg_numrows(..)
-      $count = pg_numrows($result);
-      
-      // If result matched $myusername and $mypassword, table row must be 1 row
-		
-      if($count == 1) {
-        //   $_SESSION['myusername']="something";
-        //  session_register("myusername");
-         $_SESSION['login_user'] = $myusername;
-         
-         header("location: index.php");
-      }else {
-         $error = "Your Login Name or Password is invalid";
-         echo "Your Login Name or Password is invalid";
+      if (!$result) {
+        echo "No se ha podido registrar su usuario, lo sentimos.\n";     
+      }else{
+        echo "Su usuario se ha registrado correctamente.\n";   
       }
    }
 ?>

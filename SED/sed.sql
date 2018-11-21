@@ -1,10 +1,10 @@
 ﻿CREATE TABLE USUARIO(
-id_us INT PRIMARY KEY,
-username VARCHAR(50),
+id_us SERIAL PRIMARY KEY ,
+username VARCHAR(50) UNIQUE,
 nombre_us VARCHAR(50),
 apellido_us VARCHAR(50),
-contrasenia_us CHAR(8),
-token VARCHAR(255),
+contrasenia_us CHAR(255),
+token VARCHAR(255) UNIQUE,
 admin_usuario BOOLEAN
 );
 

@@ -1,19 +1,31 @@
 <?php
-   include("config.php");
-   session_start();
+$page = "login";
+include("config.php");
+session_start();
+include("checkLoginCookie.php");
+?>
+
+
+<?php
+// if(!isset($_SESSION['login_user'])) {
+
+// }
+?>
+<?php
+   
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {
       // username and password sent from form 
       //pg_escape_string(..)//pg_escape_string(..)
       $myusername = pg_escape_string($db,$_POST['username']);
-      $mypassword = pg_escape_string($db,md5($_POST['password'])); 
-      echo md5($_POST['password']);
+      $mypassword = pg_escape_string($db,md5($_POST['password']));
+      $remember = pg_escape_string($db,md5($_POST['remember'])); 
       $sql = "SELECT id_us FROM usuario WHERE username = '$myusername' and contrasenia_us = '$mypassword'";
      // pg_exec(...) //pg_exec(..)
       $result = pg_exec($db,$sql);
       //pg_fetch_array(..) //pg_fetch_array(..)
       $row =pg_fetch_array($result,NULL, PGSQL_ASSOC);
-      $active = $row['active'];
+      $userid = $row['id_us'];
       //pg_numrows(..) // pg_numrows(..)
       $count = pg_numrows($result);
       
@@ -23,7 +35,18 @@
         //   $_SESSION['myusername']="something";
         //  session_register("myusername");
          $_SESSION['login_user'] = $myusername;
-         
+        if( isset($_POST['remember']) ){
+            do{
+            $t = md5($myusername.rand().'060694');
+            $cookie_name = "token";
+            $cookie_value = $t;
+            setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+            $sql = "UPDATE usuario SET token='$t' where id_us=$userid";
+            $result = pg_exec($db,$sql);
+            }
+            while (!$result) ;                   
+            
+        }
          header("location: index.php");
       }else {
          $error = "Your Login Name or Password is invalid";
