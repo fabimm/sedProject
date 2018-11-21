@@ -179,6 +179,7 @@
 
       <label for="psw"><b>Contraseña</b></label>
       <input type="password" placeholder="Ingrese su contraseña" name="password" required>
+
         
       <button type="submit">Registrarse</button>
       <label>

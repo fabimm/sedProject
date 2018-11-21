@@ -164,9 +164,9 @@ include('checkUserLogged.php');
                     <li>
                       <time datetime="2016">Nov. 10, 2018</time>
                     </li>
-                    <li><a href="image-post.html">por Fabi Mayén</a></li>
+                    <li><a href="belleza1.html">por Fabi Mayén</a></li>
                   </ul>
-                  <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Leer más</a></div>
+                  <div class="post-fashion-style-footer"><a class="button button-link" href="belleza1.html">Leer más</a></div>
                 </div>
               </div>
             </div>
@@ -184,9 +184,9 @@ include('checkUserLogged.php');
                         <li>
                           <time datetime="2016">Nov. 11, 2018</time>
                         </li>
-                        <li><a href="image-post.html">por Kathy Gomar</a></li>
+                        <li><a href="belleza2.html">por Kathy Gomar</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza2.html">Leer más</a></div>
                     </div>
                   </div>
                   <div class="post-fashion-style">
@@ -200,9 +200,9 @@ include('checkUserLogged.php');
                         <li>
                           <time datetime="2016">Oct. 30, 2018</time>
                         </li>
-                        <li><a href="image-post.html">por José Aldana</a></li>
+                        <li><a href="belleza3.html">por José Aldana</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza3.html">Leer más</a></div>
                     </div>
                   </div>
                 </div>
@@ -218,9 +218,9 @@ include('checkUserLogged.php');
                         <li>
                           <time datetime="2016">Feb. 28, 2018</time>
                         </li>
-                        <li><a href="image-post.html">por Fabi Mayén</a></li>
+                        <li><a href="belleza4.html">por Fabi Mayén</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="belleza4.html">Leer más</a></div>
                     </div>
                   </div>
                   <div class="post-fashion-style">
@@ -234,9 +234,9 @@ include('checkUserLogged.php');
                         <li>
                           <time datetime="2016">Mar. 22, 2018</time>
                         </li>
-                        <li><a href="image-post.html">por Walter Del Cid</a></li>
+                        <li><a href="salud1.html">por Walter D Cid</a></li>
                       </ul>
-                      <div class="post-fashion-style-footer"><a class="button button-link" href="image-post.html">Leer más</a></div>
+                      <div class="post-fashion-style-footer"><a class="button button-link" href="salud1.html">Leer más</a></div>
                     </div>
                   </div>
                 </div>
