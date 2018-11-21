@@ -1,5 +1,4 @@
-
-<?php  include('checkUserLogged.php');  ?><!DOCTYPE html>
+<?php session_start();?><!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->
@@ -92,7 +91,7 @@
                       </li>
                     </ul>
                   </li>
-                  <?php                    include('buttonsUser.php')                   ?>
+                  <?php                    include('includes/buttonsUser.php')                   ?>
                   </li>
                 </ul>
               </div>
@@ -111,8 +110,10 @@
                   <div class="container">
                     <h1 data-caption-animate="fadeInLeftSmall"><span>Beauty & Health</span></h1>
                     <h3 data-caption-animate="fadeInLeftSmall" data-caption-delay="200">La nueva generación de salud</h3>
-                    <div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="//www.templatemonster.com/website-templates/monstroid2.php">Iniciar Sesión</a></div>
-                  </div>
+                    <?php if(!isset($_SESSION['login_user']))
+                    echo '<div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="login.php">Iniciar Sesión</a></div>';
+                    ?>                  
+                    </div>
                 </div>
               </div>
               <div class="swiper-slide bg-default custom-parallax-wrap" data-slide-bg="images/salud-slider-slide-1920x1080.jpg">
@@ -121,7 +122,7 @@
                     <h2 class="text-width-2" data-caption-animate="fadeInLeftSmall">
                        Descubre todo el potencial
                        de la salud
-                    </h2><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="200" href="//www.templatemonster.com/website-templates/monstroid2.php">Iniciar Sesión</a>
+                    </h2><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="200" href="login.php">Iniciar Sesión</a>
                   </div>
                 </div>
               </div>

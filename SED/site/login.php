@@ -1,8 +1,8 @@
 <?php
 $page = "login";
-include("config.php");
+include("includes/config.php");
 session_start([   'cookie_lifetime' => 7200]);
-include("checkLoginCookie.php");
+include("includes/checkLoginCookie.php");
 ?>
 
 
@@ -32,8 +32,6 @@ include("checkLoginCookie.php");
       // If result matched $myusername and $mypassword, table row must be 1 row
 		
       if($count == 1) {
-        //   $_SESSION['myusername']="something";
-        //  session_register("myusername");
          $_SESSION['login_user'] = $myusername;
         if( isset($_POST['remember']) ){
             do{

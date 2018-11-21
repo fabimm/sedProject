@@ -1,5 +1,5 @@
 <?php
-   include("config.php");
+   include("includes/config.php");
    session_start([   'cookie_lifetime' => 7200,  ]);
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {

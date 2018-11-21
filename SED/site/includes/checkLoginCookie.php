@@ -1,10 +1,10 @@
 <?php
 if(!isset($_COOKIE['token'])) {
-    echo "No hay cookie";
+    // echo "No hay cookie";
 
     if(isset($_SESSION['login_user'])) {
       echo "segun esto existe**";
-      // header("location: index.php");
+      header("location: index.php");
    }
     // header("location: login.php");
 } else {
@@ -17,12 +17,12 @@ if(!isset($_COOKIE['token'])) {
      if($count == 0) {
       //   echo "Hay cookie pero el token es invalido**";
         unset($_COOKIE['token']);
-        $_SESSION['login_user'] = $row['username'];
+        // $_SESSION['login_user'] = $row['username'];
         header("location: login.php");
-         }else if($page=="login"){
+      }else if($page=="login"){
             // echo "Hay cookie pero el token es valido**";
-        $_SESSION['login_user'] = $row['username'];
-        header("location: index.php");
+             $_SESSION['login_user'] = $row['username'];
+              header("location: index.php");
      }
 }
 

@@ -1,4 +1,4 @@
-<?php  include('checkUserLogged.php');  ?><!DOCTYPE html>
+<?php  include('includes/checkUserLogged.php');  ?><!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->
@@ -77,7 +77,7 @@
                       </li>
                     </ul>
                   </li>
-                  <?php                    include('buttonsUser.php')                   ?>
+                  <?php                    include('includes/buttonsUser.php')                   ?>
                   </li>
                 </ul>
               </div>
