@@ -48,10 +48,10 @@ descripcion_cat VARCHAR(150)
 );
 
 
+INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Belleza','Algo');
 INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Moda','Algo');
-INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Moda1','Algo');
-INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Moda2','Algo');
-INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Moda3','Algo');
+INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Lenceria','Algo');
+INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Cat5','Algo');
 
 --CREATE TABLE COMENTARIOS(
 --id_com INT PRIMARY KEY,
