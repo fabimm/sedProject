@@ -171,7 +171,7 @@
               <div class="row no-gutters">
                 <div class="col-md-6">
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-2-480x362.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/belleza1x652.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -187,7 +187,7 @@
                     </div>
                   </div>
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-1-960x724.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/ojeras-hombre-belleza1.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -205,7 +205,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-4-480x362.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/belleza4x960.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -221,7 +221,7 @@
                     </div>
                   </div>
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-5-480x362.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/belleza5x960.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -274,7 +274,7 @@
                 </div>
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 1">
                   <div class="post-fashion-style post-fashion-style-medium">
-                    <figure><img src="images/index-isotope-2-652x492.jpg" alt="" width="652" height="492"/>
+                    <figure><img src="images/belleza1x960.jpg" alt="" width="652" height="492"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -293,7 +293,7 @@
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 1">
                   <article class="unit flex-sm-row unit-spacing-sm post-classic__img-left">
                     <div class="unit-left">
-                      <figure class="figure-inline text-center text-sm-left"><img src="images/index-isotope-3-301x226.jpg" alt="" width="301" height="226"/>
+                      <figure class="figure-inline text-center text-sm-left"><img src="images/eliminar-ojeras-480x362.jpg" alt="" width="301" height="226"/>
                       </figure>
                     </div>
                     <div class="unit-body post-inline">
@@ -307,7 +307,7 @@
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 1">
                   <article class="unit flex-sm-row unit-spacing-sm post-classic__img-left">
                     <div class="unit-left">
-                      <figure class="figure-inline text-center text-sm-left"><img src="images/index-isotope-4-301x226.jpg" alt="" width="301" height="226"/>
+                      <figure class="figure-inline text-center text-sm-left"><img src="images/belleza4x960.jpg" alt="" width="301" height="226"/>
                       </figure>
                     </div>
                     <div class="unit-body post-inline">
@@ -322,7 +322,7 @@
 <!--SALUD-->
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 2">
                   <div class="post-fashion-style post-fashion-style-medium">
-                    <figure><img src="images/index-isotope-7-652x492.jpg" alt="" width="652" height="492"/>
+                    <figure><img src="images/background-sonrisax652.jpg" alt="" width="652" height="492"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -340,7 +340,7 @@
                 </div>
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 2">
                   <div class="post-fashion-style post-fashion-style-medium">
-                    <figure><img src="images/index-isotope-8-652x492.jpg" alt="" width="652" height="492"/>
+                    <figure><img src="images/salud2x960.jpg" alt="" width="652" height="492"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -359,7 +359,7 @@
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 2">
                   <article class="unit flex-sm-row unit-spacing-sm post-classic__img-left">
                     <div class="unit-left">
-                      <figure class="figure-inline text-center text-sm-left"><img src="images/index-isotope-9-301x226.jpg" alt="" width="301" height="226"/>
+                      <figure class="figure-inline text-center text-sm-left"><img src="images/salud3x960.jpg" alt="" width="301" height="226"/>
                       </figure>
                     </div>
                     <div class="unit-body post-inline">
@@ -373,7 +373,7 @@
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 2">
                   <article class="unit flex-sm-row unit-spacing-sm post-classic__img-left">
                     <div class="unit-left">
-                      <figure class="figure-inline text-center text-sm-left"><img src="images/index-isotope-10-301x226.jpg" alt="" width="301" height="226"/>
+                      <figure class="figure-inline text-center text-sm-left"><img src="images/salud4x960.jpg" alt="" width="301" height="226"/>
                       </figure>
                     </div>
                     <div class="unit-body post-inline">
