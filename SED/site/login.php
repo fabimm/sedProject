@@ -20,12 +20,13 @@ include("includes/checkLoginCookie.php");
       $myusername = pg_escape_string($db,$_POST['username']);
       $mypassword = pg_escape_string($db,md5($_POST['password']));
       $remember = pg_escape_string($db,md5($_POST['remember'])); 
-      $sql = "SELECT id_us FROM usuario WHERE username = '$myusername' and contrasenia_us = '$mypassword'";
+      $sql = "SELECT id_us,admin_usuario FROM usuario WHERE username = '$myusername' and contrasenia_us = '$mypassword'";
      // pg_exec(...) //pg_exec(..)
       $result = pg_exec($db,$sql);
       //pg_fetch_array(..) //pg_fetch_array(..)
       $row =pg_fetch_array($result,NULL, PGSQL_ASSOC);
       $userid = $row['id_us'];
+      $isadmin = $row['admin_usuario'];
       //pg_numrows(..) // pg_numrows(..)
       $count = pg_numrows($result);
       
@@ -33,6 +34,7 @@ include("includes/checkLoginCookie.php");
 		
       if($count == 1) {
          $_SESSION['login_user'] = $myusername;
+         $_SESSION['is_admin'] = $isadmin;
         if( isset($_POST['remember']) ){
             do{
             $t = md5($myusername.rand().'060694');

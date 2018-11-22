@@ -1,6 +1,7 @@
 <?php  include('includes/checkUserLogged.php');  ?>
 
 <?php
+
       $id_pub = pg_escape_string($db,$_GET['id']);
       $sql = "SELECT * FROM publicacion INNER JOIN categoria on categoria_pub= id_cat  WHERE id_pub= '$id_pub'";
      
@@ -11,6 +12,22 @@
       if($count == 0) {
         //  header("location: notfound.php");
       }
+   
+?>
+
+<?php
+  if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete']) ) {
+      $id_pub = pg_escape_string($db,$_GET['id']);
+      $sql = "DELETE FROM publicacion WHERE id_pub= '$id_pub'";
+     
+      $result = pg_exec($db,$sql);
+      
+      $post =pg_fetch_array($result,NULL, PGSQL_ASSOC);
+      
+      
+         header("location: index.php");
+      
+    }
    
 ?>
 <!DOCTYPE html>
@@ -105,7 +122,8 @@
               <div class="section-sm post-single-body">
              
               <?php echo $post["contenido_pub"]?>
-  
+
+              <?php include('includes/deletePost.php')?>
               </div>
 
               <section class="section-sm">

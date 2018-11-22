@@ -9,7 +9,7 @@ if(!isset($_COOKIE['token'])) {
     // header("location: login.php");
 } else {
     $token = $_COOKIE['token'];
-    $sql = "SELECT id_us,username FROM usuario WHERE token = '$token'";
+    $sql = "SELECT id_us,username,admin_usuario FROM usuario WHERE token = '$token'";
      $result = pg_exec($db,$sql);
      $count = pg_numrows($result);
      $row =pg_fetch_array($result,NULL, PGSQL_ASSOC);
@@ -22,6 +22,7 @@ if(!isset($_COOKIE['token'])) {
       }else if($page=="login"){
             // echo "Hay cookie pero el token es valido**";
              $_SESSION['login_user'] = $row['username'];
+             $_SESSION['is_admin'] = $row['admin_usuario'];
               header("location: index.php");
      }
 }

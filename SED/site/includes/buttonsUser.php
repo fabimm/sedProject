@@ -27,6 +27,10 @@
                  
 if(isset($_SESSION['login_user'])) {
     // echo $_SESSION['login_user'];
+    if(isset($_SESSION['is_admin']) && $_SESSION['is_admin']=='t'){
+        echo "<li><a href='create.php'>Crear post </a>";
+        // echo '<li>El valor es:'.$_SESSION['is_admin'].'</a>';
+    }
     echo "<li><a href='logout.php'>Cerrar Sesion</a>";
 }else{
     echo "<li><a href='login.php'>Iniciar Sesion</a>";

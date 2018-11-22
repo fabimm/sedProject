@@ -1,4 +1,13 @@
 <?php  include('includes/checkUserLogged.php');  ?>
+<?php
+
+if(isset($_SESSION['login_user'])) {
+  if(isset($_SESSION['is_admin']) && $_SESSION['is_admin']=='f'){
+    header("location: index.php");
+  }
+}
+
+?>
 
 <?php
      if($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -8,8 +17,9 @@
       $contenido = pg_escape_string($db,md5($_POST['contenido'])); 
       $fotoautor = pg_escape_string($db,$_POST['photo_autor']); 
       $autor = pg_escape_string($db,$_POST['autor']); 
+      $categoria = pg_escape_string($db,$_POST['categoria']); 
       $fotopost= pg_escape_string($db,$_POST['photo_post']); 
-      $sql = "INSERT INTO publicacion(titulo_pub,contenido_pub,photo_pub,fecha_pub,categoria_pub,autor_pub,autor_photo) values('$titulo','$contenido','$fotopost',NOW(),1,'$autor','$fotoautor')";
+      $sql = "INSERT INTO publicacion(titulo_pub,contenido_pub,photo_pub,fecha_pub,categoria_pub,autor_pub,autor_photo) values('$titulo','$contenido','$fotopost',NOW(),$categoria,'$autor','$fotoautor')";
       $result = pg_exec($db,$sql);
       if (!$result) {
         echo "No se ha podido guardar su post, lo sentimos.\n";     
@@ -111,25 +121,38 @@
               <div class="section-sm post-single-body">
              
               <form class="form-horizontal" action="" method="post">
-                <div class="input-group">
+              
+                  <div class="input-group">
                   <label class="control-label col-sm-3" for="email">Titulo:</label>
-                  <input id="titulo" type="text" class="form-control ol-sm-7" name="titulo" placeholder="Titulo">
+                  <input id="titulo" type="text" class="form-control col-sm-9" name="titulo" placeholder="Titulo">
                 </div>
                 <div class="input-group">
+                  <label class="control-label col-sm-3" for='categoria'>Selecciona la categoria:</label><br>
+                  <select name="categoria" class="form-control col-sm-9">
+                  <?php
+                  $sql = "SELECT nombre_cat,id_cat FROM categoria"; 
+                  $result = pg_exec($db,$sql);
+                    while ($categoria = pg_fetch_array($result)) {
+                      echo '<option value="'.$categoria["id_cat"].'">'.$categoria["nombre_cat"].'</option>';   
+                    }   
+                  ?>
+                  </select>
+                  </div>
+                <div class="input-group">
                   <label class="control-label col-sm-3" for="email">Contenido:</label>
-                  <input id="contenido" type="text" class="form-control ol-sm-7" name="contenido" placeholder="Contenido">
+                  <input id="contenido" type="text" class="form-control col-sm-9" name="contenido" placeholder="Contenido">
                 </div>
                 <div class="input-group">
                   <label class="control-label col-sm-3" for="email">Autor:</label>
-                  <input id="autor" type="text" class="form-control ol-sm-7" name="autor" placeholder="Nombre">
+                  <input id="autor" type="text" class="form-control col-sm-9" name="autor" placeholder="Nombre">
                 </div>
                 <div class="input-group">
                   <label class="control-label col-sm-3" for="email">Foto Autor(URL):</label>
-                  <input id="fotoautor" type="text" class="form-control ol-sm-7" name="photo_autor" placeholder="URL">
+                  <input id="fotoautor" type="text" class="form-control col-sm-9" name="photo_autor" placeholder="URL">
                 </div>
                 <div class="input-group">
                   <label class="control-label col-sm-3" for="email">Foto Post(URL):</label>
-                  <input id="fotopost" type="text" class="form-control ol-sm-7" name="photo_post" placeholder="URL">
+                  <input id="fotopost" type="text" class="form-control col-sm-9" name="photo_post" placeholder="URL">
                 </div>
                 <input type="submit">
               </form> 
