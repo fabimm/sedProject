@@ -50,8 +50,15 @@ descripcion_cat VARCHAR(150)
 
 INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Belleza','Algo');
 INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Moda','Algo');
-INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Lenceria','Algo');
-INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Cat5','Algo');
+INSERT INTO CATEGORIA(nombre_cat,descripcion_cat) VALUES('Salud','Algo');
+
+INSERT INTO USUARIO(username,nombre_us,apellido_us,contrasenia_us,token,admin_usuario) VALUES('admin','Administrador','Administrador','21232f297a57a5a743894a0e4a801fc3','1',true);
+INSERT INTO USUARIO(username,nombre_us,apellido_us,contrasenia_us,token,admin_usuario) VALUES('usuario','Carlos','Pérez','f8032d5cae3de20fcec887f395ec9a6a','2',false);
+--Credenciales de usuarios insertados usuario:contraseña
+-- admin:admin
+-- usuario:usuario
+
+
 
 --CREATE TABLE COMENTARIOS(
 --id_com INT PRIMARY KEY,

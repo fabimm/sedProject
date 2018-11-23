@@ -62,9 +62,8 @@
               <div class="rd-navbar-nav-wrap">
                 <ul class="rd-navbar-nav">
                   <li class="active"><a href="index.php">Inicio</a>
-                  </li>
-                  
-                  <?php                    include('includes/buttonsUser.php')                   ?>
+                  </li>         
+                  <?php include('includes/buttonsUser.php') ?>
                   </li>
                 </ul>
               </div>
@@ -104,7 +103,7 @@
                   <div class="container">
                     <h2 data-caption-animate="fadeInLeftSmall">Consejos y trucos de belleza</h2>
                    
-                    <div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="//www.templatemonster.com/website-templates/monstroid2.php">Iniciar Sesión</a></div>
+                    <div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="login.php">Iniciar Sesión</a></div>
                   </div>
                 </div>
               </div>
