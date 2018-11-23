@@ -94,8 +94,11 @@
                     <h2 class="text-width-2" data-caption-animate="fadeInLeftSmall">
                        Descubre todo el potencial
                        de la salud
-                    </h2><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="200" href="login.php">Iniciar Sesión</a>
-                  </div>
+                       </h2>
+                       <?php if(!isset($_SESSION['login_user']))
+                    echo '<a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="200" href="login.php">Iniciar Sesión</a>';
+                    ?>   
+                    </div>
                 </div>
               </div>
               <div class="swiper-slide bg-secondary-8 custom-parallax-wrap" data-slide-bg="images/belleza-m-slider-slide-1920x1080.jpg" style="background-position: center top;">
