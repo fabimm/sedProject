@@ -3,7 +3,7 @@
    $hostname = 'localhost';
    $port = '5432';
    $username = 'postgres';
-   $password = '809C3E35';
+   $password = 'root';
    $database = 'sed';
    $db=pg_connect("host=$hostname port=$port dbname=$database user=$username password=$password") ;
    $stat = pg_connection_status($db);
