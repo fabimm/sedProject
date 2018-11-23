@@ -315,7 +315,7 @@
                 </div>
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 2">
                   <div class="post-fashion-style post-fashion-style-medium">
-                    <figure><img src="images/index-isotope-8-652x492.jpg" alt="" width="652" height="492"/>
+                    <figure><img src="images/salud2x960.jpg" alt="" width="652" height="492"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
