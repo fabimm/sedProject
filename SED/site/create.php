@@ -14,7 +14,7 @@ if(isset($_SESSION['login_user'])) {
       // username and password sent from form 
       //pg_escape_string(..)//pg_escape_string(..)
       $titulo = pg_escape_string($db,$_POST['titulo']);
-      $contenido = pg_escape_string($db,md5($_POST['contenido'])); 
+      $contenido = pg_escape_string($db,$_POST['contenido']); 
       $fotoautor = pg_escape_string($db,$_POST['photo_autor']); 
       $autor = pg_escape_string($db,$_POST['autor']); 
       $categoria = pg_escape_string($db,$_POST['categoria']); 
