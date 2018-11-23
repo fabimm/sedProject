@@ -182,7 +182,7 @@
       <input type="password" placeholder="Ingrese su contraseña" name="password" required>
 
         
-      <button type="submit">Registrarse</button>
+      <button type="submit" href="login.php">Registrarse</button>
       <label>
         <!-- <input type="checkbox" checked="checked" name="remember"> Recuérdame -->
       </label>
