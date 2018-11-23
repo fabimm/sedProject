@@ -249,7 +249,7 @@
                 </div>
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 1">
                   <div class="post-fashion-style post-fashion-style-medium">
-                    <figure><img src="images/index-isotope-2-652x492.jpg" alt="" width="652" height="492"/>
+                    <figure><img src="images/belleza1x960.jpg" alt="" width="652" height="492"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
