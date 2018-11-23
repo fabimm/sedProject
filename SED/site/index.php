@@ -348,7 +348,7 @@
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 2">
                   <article class="unit flex-sm-row unit-spacing-sm post-classic__img-left">
                     <div class="unit-left">
-                      <figure class="figure-inline text-center text-sm-left"><img src="images/index-isotope-10-301x226.jpg" alt="" width="301" height="226"/>
+                      <figure class="figure-inline text-center text-sm-left"><img src="images/salud4x960.jpg" alt="" width="301" height="226"/>
                       </figure>
                     </div>
                     <div class="unit-body post-inline">
