@@ -2,12 +2,12 @@
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->
-    <title>Beauty & Health Blog</title>
+    <title>Beauty & Health</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/icono.png" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:300%7CRoboto:300,300i%7CRoboto+Condensed:300">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -24,7 +24,7 @@
     - Elimina los puntos negros de manera fácil y económica (Kathy Gomar Nov. 11, 2018)
     - Trucos sencillos para eliminar las ojeras (José Aldana Oct. 30, 2018)
     - Cómo lograr un contour natural (Fabi Mayén Feb. 28, 2018)
-    - Cómo disminuir las estrías de manera natural (Ulises Galeano May. 25, 2018)
+    - Como disminuir las estrías de manera natural (Ulises Galeano May. 25, 2018)
     SALUD
     - Eliminar el sarro de tus dientes en 5 minutos (Walter Del Cid Mar. 22, 2018)
     - Desayunos saludables (Manuel Guerra Abr. 18, 2018)
@@ -62,8 +62,9 @@
               <div class="rd-navbar-nav-wrap">
                 <ul class="rd-navbar-nav">
                   <li class="active"><a href="index.php">Inicio</a>
-                  </li>         
-                  <?php include('includes/buttonsUser.php') ?>
+                  </li>
+                  
+                  <?php                    include('includes/buttonsUser.php')                   ?>
                   </li>
                 </ul>
               </div>
@@ -94,11 +95,8 @@
                     <h2 class="text-width-2" data-caption-animate="fadeInLeftSmall">
                        Descubre todo el potencial
                        de la salud
-                       </h2>
-                       <?php if(!isset($_SESSION['login_user']))
-                    echo '<a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="200" href="login.php">Iniciar Sesión</a>';
-                    ?>   
-                    </div>
+                    </h2><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="200" href="login.php">Iniciar Sesión</a>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide bg-secondary-8 custom-parallax-wrap" data-slide-bg="images/belleza-m-slider-slide-1920x1080.jpg" style="background-position: center top;">
@@ -106,7 +104,7 @@
                   <div class="container">
                     <h2 data-caption-animate="fadeInLeftSmall">Consejos y trucos de belleza</h2>
                    
-                    <div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="login.php">Iniciar Sesión</a></div>
+                    <div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="//www.templatemonster.com/website-templates/monstroid2.php">Iniciar Sesión</a></div>
                   </div>
                 </div>
               </div>
@@ -146,7 +144,7 @@
               <div class="row no-gutters">
                 <div class="col-md-6">
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-2-480x362.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/belleza1x652.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -162,7 +160,7 @@
                     </div>
                   </div>
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-1-960x724.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/ojeras-hombre-belleza1.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -180,7 +178,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-4-480x362.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/belleza4x960.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -196,7 +194,7 @@
                     </div>
                   </div>
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-5-480x362.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/belleza5x960.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -249,7 +247,7 @@
                 </div>
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 1">
                   <div class="post-fashion-style post-fashion-style-medium">
-                    <figure><img src="images/index-isotope-2-652x492.jpg" alt="" width="652" height="492"/>
+                    <figure><img src="images/belleza1x960.jpg" alt="" width="652" height="492"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -268,7 +266,7 @@
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 1">
                   <article class="unit flex-sm-row unit-spacing-sm post-classic__img-left">
                     <div class="unit-left">
-                      <figure class="figure-inline text-center text-sm-left"><img src="images/index-isotope-3-301x226.jpg" alt="" width="301" height="226"/>
+                      <figure class="figure-inline text-center text-sm-left"><img src="images/eliminar-ojeras-480x362.jpg" alt="" width="301" height="226"/>
                       </figure>
                     </div>
                     <div class="unit-body post-inline">
@@ -282,7 +280,7 @@
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 1">
                   <article class="unit flex-sm-row unit-spacing-sm post-classic__img-left">
                     <div class="unit-left">
-                      <figure class="figure-inline text-center text-sm-left"><img src="images/index-isotope-4-301x226.jpg" alt="" width="301" height="226"/>
+                      <figure class="figure-inline text-center text-sm-left"><img src="images/belleza4x960.jpg" alt="" width="301" height="226"/>
                       </figure>
                     </div>
                     <div class="unit-body post-inline">
@@ -297,7 +295,7 @@
 <!--SALUD-->
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 2">
                   <div class="post-fashion-style post-fashion-style-medium">
-                    <figure><img src="images/index-isotope-7-652x492.jpg" alt="" width="652" height="492"/>
+                    <figure><img src="images/background-sonrisax652.jpg" alt="" width="652" height="492"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -315,7 +313,7 @@
                 </div>
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 2">
                   <div class="post-fashion-style post-fashion-style-medium">
-                    <figure><img src="images/index-isotope-8-652x492.jpg" alt="" width="652" height="492"/>
+                    <figure><img src="images/salud2x960.jpg" alt="" width="652" height="492"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -334,7 +332,7 @@
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 2">
                   <article class="unit flex-sm-row unit-spacing-sm post-classic__img-left">
                     <div class="unit-left">
-                      <figure class="figure-inline text-center text-sm-left"><img src="images/index-isotope-9-301x226.jpg" alt="" width="301" height="226"/>
+                      <figure class="figure-inline text-center text-sm-left"><img src="images/salud3x960.jpg" alt="" width="301" height="226"/>
                       </figure>
                     </div>
                     <div class="unit-body post-inline">
@@ -348,7 +346,7 @@
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 2">
                   <article class="unit flex-sm-row unit-spacing-sm post-classic__img-left">
                     <div class="unit-left">
-                      <figure class="figure-inline text-center text-sm-left"><img src="images/index-isotope-10-301x226.jpg" alt="" width="301" height="226"/>
+                      <figure class="figure-inline text-center text-sm-left"><img src="images/salud4x960.jpg" alt="" width="301" height="226"/>
                       </figure>
                     </div>
                     <div class="unit-body post-inline">
@@ -380,8 +378,10 @@
               <h5>¡PUEDES SUSCRIBIRTE PARA TENER ACCESO A LOS TEMAS MÁS EXCLUSIVOS!</h5>
               <br>
               <!-- RD Mailform-->
-              <div class="center"">
-                <button class="button button-gray-light-outline text-center" type="submit">Suscribete!</button>
+              <div class="center">
+                <?php if(!isset($_SESSION['login_user']))
+                    echo '<div class="group-lg group-middle"><a class="button button-gray-light-outline" data-caption-animate="fadeInLeftSmall" data-caption-delay="350" href="register.php">Suscribete!</a></div>';
+                    ?>  
               </div>
               <ul class="list-inline-sm footer-minimal__list">
                 <li><a class="icon icon-sm icon-gray-4 fa fa-facebook" href="#"></a></li>
