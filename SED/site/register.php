@@ -18,6 +18,7 @@
         echo "No se ha podido registrar su usuario, lo sentimos.\n";     
       }else{
         echo "Su usuario se ha registrado correctamente.\n";   
+        header("location: login.php");
       }
    }
 ?>
