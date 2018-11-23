@@ -381,7 +381,7 @@
               <br>
               <!-- RD Mailform-->
               <div class="center"">
-                <button class="button button-gray-light-outline text-center" type="submit">Suscribete!</button>
+                <button class="button button-gray-light-outline text-center" type="submit" href="register.php">Suscribete</button>
               </div>
               <ul class="list-inline-sm footer-minimal__list">
                 <li><a class="icon icon-sm icon-gray-4 fa fa-facebook" href="#"></a></li>
