@@ -178,9 +178,9 @@
             <div class="col-md-10 col-xl-6">
               <h5>NO TE PUEDES PERDER DEL MEJOR CONTENIDO ¿QUÉ ESTÁS ESPERANDO?</h5>
               <!-- RD Mailform-->
-              <div class="center"> <br>
+              <!--<div class="center"> <br>
                 <button class="button button-gray-light-outline" type="submit">Suscríbete</button>
-              </div>
+              </div>-->
               <ul class="list-inline-sm footer-minimal__list">
                 <li><a class="icon icon-sm icon-gray-4 fa fa-facebook" href="#"></a></li>
                 <li><a class="icon icon-sm icon-gray-4 fa fa-twitter" href="#"></a></li>
