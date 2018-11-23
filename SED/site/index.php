@@ -268,7 +268,7 @@
                 <div class="col-12 col-md-6 isotope-item" data-filter="Category 1">
                   <article class="unit flex-sm-row unit-spacing-sm post-classic__img-left">
                     <div class="unit-left">
-                      <figure class="figure-inline text-center text-sm-left"><img src="images/tratamiento_antiojeras-750x400.jpg" alt="" width="301" height="226"/>
+                      <figure class="figure-inline text-center text-sm-left"><img src="images/eliminar-ojeras-480x362.jpg" alt="" width="301" height="226"/>
                       </figure>
                     </div>
                     <div class="unit-body post-inline">
