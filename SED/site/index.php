@@ -146,7 +146,7 @@
               <div class="row no-gutters">
                 <div class="col-md-6">
                   <div class="post-fashion-style">
-                    <figure><img src="images/belleza1.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/belleza1x652.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
