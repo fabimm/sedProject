@@ -162,7 +162,7 @@
                     </div>
                   </div>
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-1-960x724.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/ojeras-hombre-belleza1.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -180,7 +180,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-4-480x362.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/belleza4x960.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
@@ -196,7 +196,7 @@
                     </div>
                   </div>
                   <div class="post-fashion-style">
-                    <figure><img src="images/index-5-480x362.jpg" alt="" width="480" height="362"/>
+                    <figure><img src="images/belleza5x960.jpg" alt="" width="480" height="362"/>
                     </figure>
                     <div class="caption">
                       <div class="post-fashion-style-title">
