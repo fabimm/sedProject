@@ -380,9 +380,9 @@
               <h5>¡PUEDES SUSCRIBIRTE PARA TENER ACCESO A LOS TEMAS MÁS EXCLUSIVOS!</h5>
               <br>
               <!-- RD Mailform-->
-              <div class="center"">
+             <!--<div class="center"">
                 <button class="button button-gray-light-outline text-center" type="submit" href="register.php">Suscribete</button>
-              </div>
+              </div>-->
               <ul class="list-inline-sm footer-minimal__list">
                 <li><a class="icon icon-sm icon-gray-4 fa fa-facebook" href="#"></a></li>
                 <li><a class="icon icon-sm icon-gray-4 fa fa-twitter" href="#"></a></li>
